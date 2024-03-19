@@ -1,0 +1,12 @@
+@extends('layout.app')
+@section('content')
+    @include('components.navbar')
+    @include('components.home')
+    @include('components.skills')
+    @include('components.work')
+    @include('components.about')
+    @include('components.reviews')
+    @include('components.blogs')
+    @include('components.contact')
+    @include('components.footer')
+@endsection
